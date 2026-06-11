@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #673A44;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kabinet{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+.navbar1{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+.svg{
+    margin-left: 100px;
+}
+.bacground{
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cekshn1{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    row-gap: 40px;
+}
+.cekshn1 img{
+    width: 40%;
+}
+.divcekshn1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cabinet{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.cabinet h1{
+    font-size: 60px;
+}
+.cabinet button{
+    width: 50%;
+    height: 50px;
+    background-color: #843546;
+}
+.count{
+    display: grid;
+    grid-template-columns: repeat(2,48%);
+    grid-template-rows: repeat(1,190px);
+    gap: 40px;
+}
+.it1{
+    padding: 40px 40px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    box-shadow: 0px 5px 10px 5px paleturquoise;
+    gap: 50px;
+}
+.glawno{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.it2{
+    padding: 40px 40px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    box-shadow: 0px 5px 10px 5px paleturquoise;     
+    gap: 50px;
+}
+.bacgroundtel{
+    display: none;
+}
+
+
+
+
+@media(max-width:770px){
+    .navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #673A44;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .kabinet{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    }
+    .navbar1{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        background-color: #F2F2F2;
+    }
+    .svg{
+        margin-left: 100px;
+    }
+}
+
+
+
+
+@media(max-width:400px){
+    .navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #673A44;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .kabinet{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: white;
+    }
+        .navbar1{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        background-color: #F2F2F2;
+    }
+    .svg{
+        margin-left: 20px;
+    }
+    .bacground{
+        display: none;
+    }
+    .bacgroundtel{
+        width: 100%;
+        height: 2000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cekshn1{
+        width: 90%;
+        height: 1150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        text-align: center;
+        row-gap: 40px;
+    }
+    .cekshn1 img{
+        width: 40%;
+    }
+    .divcekshn1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .cabinet{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .cabinet button{
+        width: 90%;
+        height: 50px;
+        background-color: #843546;
+    }
+    .count{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: repeat(2,190px);
+        gap: 40px;
+    }
+    .it1{
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+        text-align: start;
+        justify-content: center;
+        gap: 50px;
+    }
+    .glawno{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .it2{
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+        text-align: start;
+        justify-content: center;
+        gap: 50px;
+    }
+}
