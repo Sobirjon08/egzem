@@ -98,11 +98,60 @@
 .bacgroundtel{
     display: none;
 }
+.cekshn2{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.count1{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-template-rows: repeat(1,400px);
+    gap: 30px;
+}
+.itm1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    row-gap: 20px;
+    padding: 40px 60px;
+}
+.rabot{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.itm2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    row-gap: 20px;
+    padding: 40px 60px;
+}
+.itm3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    row-gap: 20px;
+    padding: 40px 60px;
+}
+.cekshntel2{
+        display: none;
+}
 
 
 
 
-@media(max-width:770px){
+
+@media(max-width:835px){
     .navbar{
     width: 100%;
     height: 60px;
@@ -127,6 +176,43 @@
     .svg{
         margin-left: 100px;
     }
+    .cekshn2{
+        width: 90%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .count1{
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        grid-template-rows: repeat(3,200px);
+        gap: 30px;
+    }
+    .itm1{
+        display: flex;
+        row-gap: 20px;
+    }
+    .rabot{
+        width: 95%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .itm2{
+        display: flex;
+        row-gap: 20px;
+    }
+    .itm3{
+        display: flex;
+        row-gap: 20px;
+    }
+    .cekshntel2{
+        display: none;
+    }
 }
 
 
@@ -147,7 +233,7 @@
         gap: 10px;
         color: white;
     }
-        .navbar1{
+    .navbar1{
         width: 100%;
         height: 70px;
         display: flex;
@@ -228,4 +314,40 @@
         justify-content: center;
         gap: 50px;
     }
+    .cekshntel2{
+        display: block;
+        width: 90%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .counttel1{
+        text-align: start;
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        grid-template-rows: repeat(3,180px);
+        gap: 30px;
+    }
+    .itm1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rabot{
+        width: 265px;
+    }
+    .itm2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .itm3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
 }
