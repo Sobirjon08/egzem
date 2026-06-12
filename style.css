@@ -233,6 +233,96 @@
 .bacgroundtel1{
     display: none;
 }
+.bacground2{
+    width: 100%;
+    height: 2500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.kont{
+    min-width: 90%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kont img{
+    width: 30%;
+}
+.sin{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cout{
+    margin-left: -100px;
+    display: grid;
+    grid-template-columns: repeat(3,40%);
+    grid-template-rows: 200px;
+    gap: 20px;
+}
+.qwer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.qwer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.qwer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.kkont{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 10px;
+}
+.rabotay{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.kkontt{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 10px;
+}
+.bacgroundtel2{
+    display: none;
+}
+
+
 
 
 
@@ -382,6 +472,103 @@
         align-items: start;
         justify-content: space-around;
     }
+    .bacground2{
+        width: 100%;
+        height: 3200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .bacground2 img{
+        width: 90%;
+    }
+    .kont{
+        min-width: 90%;
+        height: 2000px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .kont img{
+        width: 60%;
+    }
+    .sin{
+        width: 90%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .cout{
+        margin-left: -100px;
+        display: grid;
+        grid-template-columns: repeat(3,40%);
+        grid-template-rows: 200px;
+        gap: 20px;
+    }
+    .qwer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .qwer2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .qwer3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .kkont{
+        width: 70%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        row-gap: 10px;
+    }
+    .kkont h1{
+        font-size: 50px;
+    }
+    .rabotay{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    .kkontt{
+        width: 70%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        row-gap: 10px;
+    }
+    .kkontt h1{
+        font-size: 50px;
+    }
+
+
 }
 
 
@@ -604,6 +791,105 @@
         display: flex;
         align-items: start;
         justify-content: space-around;
+    }.bacground2{
+        display: none;
     }
+    .bacgroundtel2{
+        width: 100%;
+        height: 3700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .bacgroundtel2 img{
+        width: 90%;
+    }
+    .kont{
+        min-width: 90%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .kont img{
+        width: 70%;
+    }
+    .sin{
+        width: 90%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .cout{
+        display: grid;
+        grid-template-columns: repeat(1,140%);
+        grid-template-rows: 3/200px;
+        gap: 20px;
+    }
+    .qwer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .qwer2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .qwer3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .kkont{
+        width: 90%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        row-gap: 10px;
+    }
+    .kkont h1{
+        font-size: 35px;
+    }
+    .rabotay{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    .kkontt{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        row-gap: 10px;
+    }
+    .kkontt h1{
+        font-size: 35px;
+    }
+    
       
 }
